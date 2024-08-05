@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=0.75"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=2.0, maximum-scale=3.0, minimum-scale=1.0, user-scalable=yes">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Sandesh Profile</title>
+</head>
+<body>
+    
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p> Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user" ></i>
+                    <p> About Me</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p> Projects</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
+                    <p> Gallery</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i>
+                    <p>Contact</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">sandesh</span>,</h1>
+                        
+                        <div class="portfolio">
+                        <h2 id="portfolio-heading"> <span ></span></h2>
+                        </div>
+                        <script src="script.js"></script>
+
+                        <p class="heroline" style="justify-content: center">Results-driven web developer in designing and developing user-centric websites and web applications. Proficient in front-end , with a strong understanding of responsive design, SEO best practices, and performance optimization. Adept at working collaboratively in team environments and managing multiple projects simultaneously.</p>
+                        <a href="sk.pdf">
+                        <div class="buttonGroup"><button id="hire">Resume </button></a>
+                        <button id="hire" onclick="Navigate(4)">Contact Me</button></div>
+                        
+                    </div>
+                   
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="profile.jpg" id="profile" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">I'm sandesh, <span class="proffesions">A Web Developer</span></h3>
+                    <p class="aboutme-deatils">
+                        As a versatile web developer, I possess expertise in a wide range of technologies and programming languages, including HTML, CSS, JavaScript, and Python. My proficiency in C++ and Object-Oriented Programming (OOP) principles allows me to create efficient and scalable code. I have a solid understanding of SQL for database management and debugging techniques to ensure robust and error-free applications. My knowledge of Operating Systems (OS) and Web Development enables me to build responsive, user-friendly websites and web applications. With a strong focus on performance optimization and user experience, I am dedicated to delivering high-quality digital solutions.
+                    </p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table" style="margin-top: 50px;">
+                            <li><span>Collage:</span> DYPIEMR , Akurdi, Pune.</li>
+                            <li><span>Country:</span> India</li>
+                            <li><span>Avability:</span> 24/7 </li>
+                            <li><span>Completed Projects:</span>5</li>
+                            <li><span>Age</span>: 22</li>
+                            <li><span>Phone</span>: +919673911859</li>
+                            <li><span>Language Used:</span>HTML,CSS,JS</li>
+                            <li><span>Degree</span>: Computer Science Engeneering</li>
+                            <a href="sk.pdf">
+                            <div class="buttonGroup"><button id="hire">Resume</button></a>
+                            <a href="onclick=Navigate(4)">    
+                            <button id="hire" >Contact Me</button></div></a>
+                        </div>
+
+                        <div class="skill-bar">
+                            <h3 style="margin-left: 20px; margin-top:40px">  Skills</h3>
+                            <li>
+                                <p>C++</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:90%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>HTML</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:90%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>CSS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Leetcode</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:85%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>JavaScript</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:85%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Python</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Java</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:60%"></div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="skill-bar1">
+                            <h3 style="margin-left: 20px; margin-top:40px">Expertise</h3>
+                            <li>
+                                <p>OOPs</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:95%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>OS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>SQL</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:85%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>DBMS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Computer Networks</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:60%"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="swiper-slide services">
+
+                    <h1 class="heading">Projects</h1>
+                    
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"  ></i></div>
+                        <h2>Travel Guide Web App</h2>
+                        <p>Developed a comprehensive travel guide website utilizing HTML, CSS, JavaScript, and Bootstrap to deliver an engaging user experience.</p>
+                         
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+                        <h2>ODI Match Outcome Predictor Using Machine Learning</h2>
+                            <p>Developed an advanced predictive model to forecast outcomes of One Day International (ODI) cricket matches utilizing machine learning techniques. </p>
+                    </div>
+
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web Development</h2>
+                        <p></p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h2>SEO</h2>
+                        <p></p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-image"></i></div>
+                        <h2>Graphic Designer</h2>
+                        <p></p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        <h2>Software Developer</h2>
+                        <p></p>
+                    </div>
+
+                   
+
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Gallery</h1>
+                    <iframe width="560" class="video" style="padding-left: 10px;" height="315" src="https://www.youtube.com/embed/A2Y7fvBfstM?si=vvWYIEzpYVH7DCyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" class="video" height="315" src="https://www.youtube.com/embed/_GgXZLjktI0?si=95a-sSZxmPLij2Ts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                   
+                    <iframe width="560"class="video" height="315" src="https://www.youtube.com/embed/gW69WM-SiL0?si=DqWebzDTmkiFqXH2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560"class="video" height="315" src="https://www.youtube.com/embed/YqT0lN9n2TQ?si=GPSeYQao9jVBGJgt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" class="video"  height ="315" src="https://www.youtube.com/embed/5blye3vKxxQ?si=bzpuVNHwGo3Lid-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" class="video" height="315" src="https://www.youtube.com/embed/wfpwqmkfSuk?si=KOUJ0ANT9KZfzt6X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <a href="tel:967-391-185" class="mail">
+                    <div class="contactinfo"><i class="fa-solid fa-phone" id="i1"></i>
+                        <h3>Mobile No</h3>
+                        <p>967-391-1859</p>
+                    </div>
+                    </a>
+                    <a href="https://maps.app.goo.gl/bVJo259GCAqVEpyK6" class="mail">
+                    <div class="contactinfo"><i class="fa-solid fa-location-dot" id="i1"></i>
+                        <h3>Location</h3>
+                        <p>Pune</p>
+                    </div>
+                </a>
+                
+                    <a href="mailto:sandykhot10@gmail.com" class="mail" style="color: black;">
+                    <div class="contactinfo"><i class="fa-regular fa-envelope" id="i1" > </i>
+                        <h3 >Email  </h3>
+                        <p>sandykhot10@gmail.com </p>
+                    </div>
+                    </a>
+                    <div class="contactinfo"><i class="fa-solid fa-globe" id="i1" class="mail"></i>
+                        <h3>Website</h3>
+                        <p>Deo Smart Tech</p>
+                    </div>
+                    <form>
+                        <h2>Send Me A Message <div class="SocialLinks">
+                           
+                                <a href="https://github.com/sandykhot10"><i class="fa-brands fa-github" id="i3" style="color :white"> </i></a>
+                                <a href="https://www.instagram.com/_sandy_khot_10"><i class="fa-brands fa-instagram" id="i2" style="color : white"></i></a>
+                                <a href="https://www.youtube.com/@deosmarttech3866"><i class="fa-brands fa-youtube" style="color: white;"></i></a>
+                                <a href="https://www.linkedin.com/in/sandesh-khot-31498424a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin" id="i3" style=" color : white; hover:blue"></i></a>
+                                <a href=""></a><i class="fa-brands fa-discord" id="i4"></i>
+                                
+                            </div>
+                        </h2>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="email">
+                        <textarea rows="10" placeholder="Type your Message Here..."></textarea>
+                        <button class="primary">Send</button>
+
+                    </form>
+                    <footer>
+                        <li>Copyright © 2023 sandesh.</li>
+                    </footer>
+                </div>
+            </div>
+    </main>
+    
+    
+</body>
+</html>
+

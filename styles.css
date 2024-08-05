@@ -1,0 +1,20 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.portfolio {
+    margin-left: 5px;
+}
+
+#portfolio-heading {
+    font-size: 3em;
+    overflow: hidden;
+    white-space: nowrap;
+}
